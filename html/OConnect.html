@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/reset.css">
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li> <button id="RemoteControl" class="mainbuttons" title="For RemoteControl Tab">
+                    <img class="mainbuttonsimages" src="../images/RemoteControl.png" alt="RemoteControlImage"> <label
+                        id="label1" class="mainbuttonslabels" for="RemoteControl">Remote Control</label>
+                </button>
+            </li>
+
+            <li> <button id="FileTransfer" class="mainbuttons" title="For FileTransfer Tab">
+                    <img class="mainbuttonsimages" src="../images/FileTransfer.png" alt="FileTransferImage"> <label
+                        id="label2" class="mainbuttonslabels" for="FileTransfer">File Transfer</label>
+                </button>
+            </li>
+        </ul>
+    </header class="allowcontrollabels">
+
+    <div id="container1">
+        <div id="section1">
+            <label id="mainlabel1">Allow Control</label>
+            <br>
+            <img id="mainimage1" class="mainimage" src="../images/allow control.png" alt="allowcontrolimage">
+            <label id="section1label1" class="allowcontrollabels" for="yourID1">Your ID:</label>
+            <input disabled id="yourID1" class="allowcontrolinput" type="text">
+            <br>
+            <label id="section1lable2" class="allowcontrollabels" for="Password1">Password:</label>
+            <input id="Password1" class="allowcontrolinput" type="text">
+            <br>
+            <button id="section1btn" type="button" title="Click to allow remote PC to acces your PC">Allow
+                Control</button>
+            <button id="allowcontrolstatus" disabled></button>
+        </div>
+        <div id="section2">
+            <label id="mainlabel2">Control Other</label>
+            <br>
+            <img id="mainimage2" class="mainimage" src="../images/controlother.png" alt="controlotherimage">
+            <label id="section2label1" class="controlotherlabels" for="yourID2">Your ID:</label>
+            <input id="yourID2" class="controlotherinput" placeholder="Remote PC ID">
+            <br>
+            <label id="section2lable2" class="controlotherlabels" for="Password2">Password:</label>
+            <input id="Password2" class="controlotherinput" placeholder="Remote PC Password">
+            <br>
+            <button id="section2btn"
+                title="on clicking if Remote host is availabel it will give you the remote PC screen">Connect</button>
+        </div>
+    </div>
+
+    <div id="container2">
+        <div id="Fsection1">
+            <button id="sendfilebtn" class="filetransferbtns"><img class="filetransferbtnsimg"
+                    src="../images/filesend.png" alt="sendimage">
+                <label id="sendbtnlabel" class="filetransferbtnlabels" for="sendfilebtn">Send</label>
+            </button>
+            <button id="recvfilebtn" class="filetransferbtns"><img class="filetransferbtnsimg"
+                    src="../images/filerecv.png" alt="sendimage">
+                <label id="recvbtnlabel" class="filetransferbtnlabels" for="recvfilebtn">Receive</label>
+            </button>
+        </div>
+        <div id="Fsection2">
+            <header id="Fsection2header">
+                <input type="text" id="Fsection2input" placeholder="Enter ID of RemotePC">
+                <button id="Fsection2btn1">Connect</button>
+                <button id="sendstatus" disabled></button>
+            </header>
+            <br>
+            <button id="Fsection2btn2" disabled>Choose File</button><label id="Fsection2btn2label"
+                for="Fsection2btn2">no files selected</label> <button id="Fsection2btn3" disabled>Send</button>
+            <label id="or" for="">Or</label>
+
+            <div id="dropzone">
+                <p id="dropzonetext">Drop your file here</p>
+            </div>
+
+            <p id="Fsection2status">sending status:</p>
+            <progress id="sendprogress" value="0" max="100"></progress>
+            <!-- <img id="Fsection2img" src="../images/filesend.png" alt="sendimag" > -->
+        </div>
+        <div id="Fsection3">
+            <header id="Fsection3header">
+                <label id="Fsection3label1" for="Fsection3input">ID:</label>
+                <input id="Fsection3input" type="text" disabled>
+                <button id="Fsection3btn1">Start receiving</button>
+                <button id="receivestatus">
+            </header>
+
+            <p id="Fsection3label2">Received Files</p>
+            <section id="receivedfiles">
+
+            </section>
+            <button id="Fsection3btn2">Save</button>
+            <p id="Fsection3status">receiving status:</p>
+            <progress id="receiveprogress" value="0" max="100"></progress>
+            <!-- <img id="Fsection3img" src="../images/filerecv.png" alt="sendimag"> -->
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script src="../js/OConnectEffects.js"></script>
+<script src="../js/FileTransferFunctionality.js"></script>
+<script src="../js/RemoteControlFunctionality.js"></script>

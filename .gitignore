@@ -1,0 +1,6 @@
+/node_modules
+/.vscode
+/remotescreen.png
+/package-lock.json
+/script/__pycache__
+/script/.idea

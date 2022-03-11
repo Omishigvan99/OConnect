@@ -1,0 +1,389 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container1 {
+    background-color: mintcream;
+}
+
+.mainbuttonsimages {
+    height: 46px;
+    width: 46px;
+    padding-left: 10px;
+    float: left;
+    border: none;
+}
+
+.mainbuttons {
+    font-size: 20px;
+    width: 220px;
+    padding: 0;
+    margin: 0;
+    background: #0055D4;
+    border: none;
+}
+
+.mainbuttons label {
+    position: relative;
+    top: 13px;
+    background: #0055D4;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    display: inline;
+    list-style: none;
+}
+
+header {
+    align-content: unset;
+    background: #0055D4;
+}
+
+#section1 {
+    background-color: white;
+    height: 505px;
+    width: 49.8%;
+    float: left;
+    margin: 0;
+}
+
+#section2 {
+    background-color: white;
+    height: 505px;
+    width: 50%;
+    float: right;
+    margin: 0;
+    border-left: solid 1px #DEEEF0;
+}
+
+#mainlabel1, #mainlabel2 {
+    display: block;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+}
+
+.mainimage {
+    display: block;
+    height: 150px;
+    width: 150px;
+    margin-top: 45px;
+    margin-left: 30%;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    background-color: white;
+}
+
+.allowcontrollabels {
+    display: block;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.allowcontrolinput {
+    display: block;
+    width: 290px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    padding: 5px;
+    border: solid 2px #4D4D4D;
+    border-radius: 6px;
+}
+
+#yourID1, #Fsection3input {
+    border-color: #4D4D4D;
+    background-color: white;
+    color: black;
+}
+
+.controlotherlabels {
+    display: block;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.controlotherinput {
+    display: block;
+    width: 290px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-right: 20px;
+    padding: 5px;
+    border: solid 2px #4D4D4D;
+    border-radius: 6px;
+}
+
+#section1btn {
+    display: inline-block;
+    background-color: #0055D4;
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 1px #0055D4;
+    border-radius: 6px;
+}
+
+#allowcontrolstatus {
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-color: red;
+    border-radius: 20px;
+}
+
+#section2btn {
+    display: block;
+    background-color: #0055D4;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 1px #0055D4;
+    border-radius: 6px;
+}
+
+/* Above Css is for Remote Control and below is for File TRansfer */
+
+#container2 {
+    display: none;
+    background-color: white;
+}
+
+#Fsection1 {
+    width: 29.8%;
+    height: 505px;
+    float: left;
+    background-color: white;
+}
+
+#Fsection2 {
+    width: 70%;
+    height: 505px;
+    float: right;
+    background-color: white;
+    border-left: solid 1px #DEEEF0;
+}
+
+#Fsection3 {
+    display: none;
+    width: 70%;
+    height: 505px;
+    float: right;
+    background-color: white;
+    border-left: solid 1px #DEEEF0;
+}
+
+.filetransferbtnsimg {
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+.filetransferbtns {
+    display: block;
+    margin: 45px;
+    background-color: #0055D4;
+    border: solid 1px #0055D4;
+    border-radius: 6px;
+}
+
+.filetransferbtnlabels {
+    display: block;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Fsection2header {
+    background-color: #C0D9FC;
+}
+
+#sendstatus {
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-color: red;
+    border-radius: 20px;
+}
+
+#Fsection2input {
+    display: inline-block;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: solid 2px #4D4D4D;
+    border-radius: 6px;
+}
+
+#Fsection2btn1, #Fsection2btn2, #Fsection2btn3 {
+    display: inline-block;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #0055D4;
+    color: white;
+    border: solid 2px #0055D4;
+    border-radius: 6px;
+}
+
+#Fsection2btn2 {
+    margin-left: 20px;
+}
+
+#Fsection2btn2label {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    color: #4D4D4D;
+}
+
+#or {
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4D4D4D;
+}
+
+#dropzone {
+    display: block;
+    height: 300px;
+    width: 400px;
+    margin: 10px auto;
+    text-align: center;
+    border: dashed 2px dimgray;
+    border-radius: 6px;
+}
+
+#dropzonetext {
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgray;
+}
+
+#Fsection2status {
+    display: inline;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+
+#sendprogress {
+    width: 350px;
+}
+
+/* File transfer recive section */
+
+#Fsection3header {
+    background-color: #C0D9FC;
+}
+
+#Fsection3label1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+
+#Fsection3input {
+    display: inline-block;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: solid 2px #4D4D4D;
+    border-radius: 6px;
+}
+
+#Fsection3btn1, #Fsection3btn2 {
+    display: inline-block;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #0055D4;
+    color: white;
+    border: solid 2px #0055D4;
+    border-radius: 6px;
+}
+
+#Fsection3btn2 {
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+#receivestatus {
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-color: red;
+    border-radius: 20px;
+}
+
+#Fsection3label2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#receivedfiles {
+    height: 60%;
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #DEEEF0;
+    border-radius: 6px;
+    overflow: auto;
+}
+
+option {
+    margin: 5px;
+    padding-top: 2px;
+}
+
+#Fsection3status {
+    display: inline;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+#receiveprogress {
+    width: 340px;
+}
+
+/* #Fsection2img,#Fsection3img{
+    height: 450px;
+    width: 450px;
+    margin-top: 25px;
+    margin-left: 50px;
+    opacity: 0.3;
+} */
